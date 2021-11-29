@@ -47,10 +47,10 @@
    <FX3Level>0</FX3Level>
    <FX4Level>0</FX4Level>
    <Attack>0</Attack>
-   <Decay>0</Decay>
+   <Decay>3240</Decay>
    <Sustain>1</Sustain>
-   <Release>999</Release>
-   <pitchOffset>0</pitchOffset>
+   <Release>1848</Release>
+   <pitchOffset>-2</pitchOffset>
    <randomPitchFactor>0</randomPitchFactor>
    <muteGroup>-1</muteGroup>
    <isStopNote>false</isStopNote>
@@ -280,21 +280,21 @@
    <volume>1.02155</volume>
    <isMuted>false</isMuted>
    <isSoloed>false</isSoloed>
-   <pan>-0.3</pan>
+   <pan>-0.22</pan>
    <gain>1</gain>
    <applyVelocity>true</applyVelocity>
    <filterActive>false</filterActive>
    <filterCutoff>1</filterCutoff>
    <filterResonance>0</filterResonance>
-   <FX1Level>0</FX1Level>
+   <FX1Level>0.12</FX1Level>
    <FX2Level>0</FX2Level>
    <FX3Level>0</FX3Level>
    <FX4Level>0</FX4Level>
    <Attack>0</Attack>
-   <Decay>0</Decay>
-   <Sustain>1</Sustain>
-   <Release>999</Release>
-   <pitchOffset>0</pitchOffset>
+   <Decay>20249</Decay>
+   <Sustain>0.28</Sustain>
+   <Release>2695</Release>
+   <pitchOffset>1</pitchOffset>
    <randomPitchFactor>0</randomPitchFactor>
    <muteGroup>-1</muteGroup>
    <isStopNote>false</isStopNote>
@@ -711,10 +711,10 @@
    <FX3Level>0</FX3Level>
    <FX4Level>0</FX4Level>
    <Attack>0</Attack>
-   <Decay>19360</Decay>
-   <Sustain>0.35</Sustain>
-   <Release>32746</Release>
-   <pitchOffset>0</pitchOffset>
+   <Decay>14440</Decay>
+   <Sustain>0.38</Sustain>
+   <Release>31616</Release>
+   <pitchOffset>-1</pitchOffset>
    <randomPitchFactor>0</randomPitchFactor>
    <muteGroup>-1</muteGroup>
    <isStopNote>false</isStopNote>
@@ -5475,6 +5475,12 @@
   <group>
    <patternID>Base Beat - Var 4 - Kick +1</patternID>
   </group>
+  <group>
+   <patternID>Base Beat - Var 5 - Kick +1</patternID>
+  </group>
+  <group>
+   <patternID>Base Beat - Var 6 - Kick +1</patternID>
+  </group>
  </patternSequence>
  <ladspa>
   <fx>
@@ -5492,13 +5498,13 @@
    </inputControlPort>
    <inputControlPort>
     <name>drywet</name>
-    <value>1</value>
+    <value>0.57265</value>
    </inputControlPort>
   </fx>
   <fx>
    <name>guitarix_freeverb</name>
    <filename>/usr/lib/ladspa/guitarix_freeverb.so</filename>
-   <enabled>true</enabled>
+   <enabled>false</enabled>
    <volume>0.5</volume>
    <inputControlPort>
     <name>roomsize</name>
